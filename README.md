@@ -47,13 +47,18 @@ Training Accuracy: ~93%
 Validation Accuracy: ~84%
 
 
+
 🧪 Sample Predictions
 
 The model is tested on a subset of the test data:
 
 Actual Sentiments:    [1 0 0 0 1 0 1 0 0 0 1]
+
 Predicted Sentiments: [1 0 0 0 1 0 1 0 0 0 1]
+
 ✅ Prediction matches all 11 out of 11 samples.
+
+
 
 🚀 How to Run
 
@@ -70,7 +75,11 @@ pip install tensorflow numpy keras
 python sentiment_analysis.py
 
 
+
+
 📦 Dependencies
+
+
 tensorflow
 
 keras
